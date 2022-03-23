@@ -27,5 +27,5 @@ jobs:
       run: dotnet publish WorkshopDemo/WorkshopDemo.sln
     - uses: actions/upload-artifact@v3
       with: 
-        name: my-artifact
-        path: workshop2.sln
+        name: demo-artifact
+        path: WorkshopDemo/WorkshopDemo.sln
